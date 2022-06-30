@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      article h4,
+      h4 {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+      }
+
+      content {
+        position: relative;
+      }
+
+      footer {
+        position: sticky;
+        bottom: 50vh;
+        z-index: -1;
+      }
+    </style>
+  </head>
+
+  <body>
+    <article>
+      <section>
+        <h4>新闻主题1</h4>
+        <content>
+          <p>12月2日，有网友爆料称...</p>
+        </content>
+        <footer>网友评论：...</footer>
+      </section>
+      <section>
+        <h4>新闻主题2</h4>
+        <content>
+          <p>主题2的主要内容……</p>
+        </content>
+        <footer>网友评论：...</footer>
+      </section>
+      ...
+    </article>
+  </body>
+</html>
